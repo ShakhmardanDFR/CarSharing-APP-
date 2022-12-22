@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "53384230127",
+    "project_id": "car-sh",
+    "storage_bucket": "car-sh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53384230127:android:d1f3689f2418042da8571a",
+        "android_client_info": {
+          "package_name": "com.example.car_sharingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53384230127-rbg87oomoe6eveufl179cb1jtrsvk030.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.car_sharingapp",
+            "certificate_hash": "91839a6a8b202347a40925d76a4d43bd4070b866"
+          }
+        },
+        {
+          "client_id": "53384230127-s4innjnhrtdsu4senk0vsjrrrhj3st6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4PCVnP7lVt43c3Gg81ia6BX9OGAdkNyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53384230127-s4innjnhrtdsu4senk0vsjrrrhj3st6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

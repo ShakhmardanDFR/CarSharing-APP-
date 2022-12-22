@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Логин и пароль"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/login_email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_below="@id/login_email"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_below="@+id/login_password"
+        android:layout_marginTop="5dp"
+        android:text="Забыли пароль?"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/login_btn"
+        android:text="Войти"
+        android:layout_marginTop="10sp"
+        android:background="@color/purple_700"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/forgot_password"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/need_an_account"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10sp"
+        android:text="Нет аккаунта? Регистрация"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>
